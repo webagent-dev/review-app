@@ -1,10 +1,15 @@
 
 import './App.css';
+import Review from './comps/Review'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Review App</h1>
+    <div className="app">
+    <section className='container'>
+       <h1 className='header'> our reviews</h1>
+       <hr className='underline'/>
+       <Review  />
+    </section>
     </div>
   );
 }
